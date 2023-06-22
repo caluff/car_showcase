@@ -369,7 +369,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@npmcli-fs-npm-3.1.0-0844a57978-a50a6818de.zip/node_modules/@npmcli/fs/",\
           "packageDependencies": [\
             ["@npmcli/fs", "npm:3.1.0"],\
-            ["semver", "npm:7.5.2"]\
+            ["semver", "npm:7.5.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -858,7 +858,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autoprefixer", "virtual:5f8461983fe4591bd2866409c0d9d8212785044af17d2a6c710b5c0874d8a82a9bfa1c37f1d6d8609960ed40973f63e133e5124e907ddc369e9b2299f0083d3d#npm:10.4.14"],\
             ["@types/postcss", null],\
             ["browserslist", "npm:4.21.9"],\
-            ["caniuse-lite", "npm:1.0.30001506"],\
+            ["caniuse-lite", "npm:1.0.30001507"],\
             ["fraction.js", "npm:4.2.0"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.0"],\
@@ -971,8 +971,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.21.9-f6128308c1-80d3820584.zip/node_modules/browserslist/",\
           "packageDependencies": [\
             ["browserslist", "npm:4.21.9"],\
-            ["caniuse-lite", "npm:1.0.30001506"],\
-            ["electron-to-chromium", "npm:1.4.438"],\
+            ["caniuse-lite", "npm:1.0.30001507"],\
+            ["electron-to-chromium", "npm:1.4.440"],\
             ["node-releases", "npm:2.0.12"],\
             ["update-browserslist-db", "virtual:f6128308c12e2b37fe427262226a88e213eb66128b3445db14a7af8a6dafb815a9c4562e232b574e216fb796ee19313d71844b195e41ad82170480289a6b575c#npm:1.0.11"]\
           ],\
@@ -1054,6 +1054,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001506-7d445fc30c-0a09074582.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
             ["caniuse-lite", "npm:1.0.30001506"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.0.30001507", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001507-b3531bb98e-7044172bdf.zip/node_modules/caniuse-lite/",\
+          "packageDependencies": [\
+            ["caniuse-lite", "npm:1.0.30001507"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1408,10 +1415,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["electron-to-chromium", [\
-        ["npm:1.4.438", {\
-          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.438-8996671fde-53d9292ca6.zip/node_modules/electron-to-chromium/",\
+        ["npm:1.4.440", {\
+          "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.4.440-b51f1c58cb-702f8f0454.zip/node_modules/electron-to-chromium/",\
           "packageDependencies": [\
-            ["electron-to-chromium", "npm:1.4.438"]\
+            ["electron-to-chromium", "npm:1.4.440"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3419,7 +3426,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nopt", "npm:6.0.0"],\
             ["npmlog", "npm:6.0.2"],\
             ["rimraf", "npm:3.0.2"],\
-            ["semver", "npm:7.5.2"],\
+            ["semver", "npm:7.5.3"],\
             ["tar", "npm:6.1.15"],\
             ["which", "npm:2.0.2"]\
           ],\
@@ -4212,6 +4219,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/semver-npm-7.5.2-28fb0fd2d6-3fdf5d1e6f.zip/node_modules/semver/",\
           "packageDependencies": [\
             ["semver", "npm:7.5.2"],\
+            ["lru-cache", "npm:6.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:7.5.3", {\
+          "packageLocation": "./.yarn/cache/semver-npm-7.5.3-275095dbf3-9d58db1652.zip/node_modules/semver/",\
+          "packageDependencies": [\
+            ["semver", "npm:7.5.3"],\
             ["lru-cache", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
