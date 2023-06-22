@@ -16,26 +16,22 @@ const Hero = () => {
         </p>
         <CustomButton
           title="Explore Cars"
+          btnType={"submit"}
           containerStyles={"bg-primary-blue text-white rounded-full mt-10"}
           handleClick={handleScroll}
         />
       </div>
-      {/*<div className={"flex flex-row"}>*/}
-      {/*<div className="flex flex-col justify-center items-center mt-5">*/}
-      {/*  <div className="w-5 h-5 rounded-full bg-primary-blue"/>*/}
-      {/*  <div className="w-1 sm:h-80 h-40 blue-gradient"/>*/}
-      {/*</div>*/}
       <div className={"xl:flex-[1.5] flex justify-end items-end w-full xl:h-screen"}>
         <div className={"relative xl:w-full w-[90%] xl:h-full h-[590px] z-0"}>
           <Image
-            src={"/hero.png"}
-            alt={"car-hero"}
+            src={"/heroo.png"}
+            alt={"hero"}
             fill
-            className={"object-contain"}
-          />
+            className={"object-contain"}/>
         </div>
+        <div
+          className={"absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden"}/>
       </div>
-      {/*</div>*/}
     </div>
   );
 };
