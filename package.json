@@ -1,5 +1,6 @@
 {
   "name": "car_showcase",
+  "packageManager": "yarn@3.6.0",
   "version": "0.1.0",
   "private": true,
   "scripts": {
