@@ -16,8 +16,8 @@ export default async function Home() {
         <div className={"mt-12 w-full flex-between items-center flex-wrap gap-5"}>
           <SearchBar/>
           <div className={"flex justify-start flex-wrap items-center gap-2"}>
-            {/*<CustomFilter title={"fuel"}/>*/}
-            {/*<CustomFilter title={"year"}/>*/}
+            <CustomFilter title={"fuel"}/>
+            <CustomFilter title={"year"}/>
           </div>
         </div>
         {!isDataEmpty ? (
