@@ -30,15 +30,9 @@ export const calculateCarRent = (city_mpg: number, year: number) => {
 };
 
 export const updateSearchParams = (type: string, value: string) => {
-  // Get the current URL search params
   const searchParams = new URLSearchParams(window.location.search);
-
-  // Set the specified search parameter to the given value
   searchParams.set(type, value);
-
-  // Set the specified search parameter to the given value
-  const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
-
+  const newPathname = `${window.location.pathname}?${searchParams.toString()}`
   return newPathname;
 };
 
@@ -65,4 +59,5 @@ export const generateCarImageUrl = (car:CarProps,angle?:string)=>{
   url.searchParams.append('angle',`${angle}`)
   return `${url}`
 }
+
 
