@@ -1,4 +1,4 @@
-import React, {MouseEventHandler} from "react";
+import {MouseEventHandler} from "react";
 
 export interface CustomButtonProps {
   title: string;
@@ -43,4 +43,8 @@ export interface OptionProps{
 export interface CustomFilterProps{
   title:string,
   options: OptionProps[];
+}
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
 }
