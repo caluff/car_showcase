@@ -2,7 +2,7 @@
 
 Website that helps you find, book or rent cars. Quickly and easily.
 
-![Car Showcase](./public/car-showcase.png)
+![Car Showcase](./public/car-showcase.jpg)
 
 ## Skills
 
